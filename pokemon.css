@@ -1,0 +1,161 @@
+body{
+   
+    
+    font-family: poppins;
+    
+}
+
+
+.divheader{
+    text-align: center;
+}
+
+.h1{
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.divbuscarpokemon{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.divisor{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+.divimagen{
+    text-align: center;
+    width: 60%;
+    border: 2px solid brown;
+}
+
+img{
+    
+    width: 400px;
+    height: 400px;
+}
+
+.divdatos{
+    display: inline-block;
+    width: 40%;
+    align-self: center;
+    text-align: center;
+    background-color: brown;
+    border: 3px solid brown;
+    
+}
+
+.divnombre{
+    position: relative;
+    left: 25%;
+  
+    width: 300px;
+    height: 100px;
+    background-color: rgb(182, 182, 182);
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.divtipo{
+    border: 1px solid white;
+    position: relative;
+    left: 25%;
+    width: 300px;
+    height: 100px;  
+    background-color: rgb(182, 182, 182);
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.divmovimientos{
+    position: relative;
+    left: 25%;
+    border: 1px solid green;
+    width: 300px;
+    height: 100px; 
+    background-color: rgb(182, 182, 182);
+    border: 1px solid white;
+    margin-top: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.divestadistica{
+    position: relative;
+    left: 25%;
+    border: 1px solid blue;
+    width: 300px;
+    height: 100px; 
+    background-color: rgb(182, 182, 182);
+    border: 1px solid white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+input{
+   border-radius: 5px;
+   border:2px solid brown;
+   width: 400px;
+   height: 30px;
+   background-color: transparent;
+    
+}
+
+button{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: brown;
+    color: white;
+}
+
+label{
+    display: block;
+    font-size: 20px;
+}
+
+.uno, .dos, .tres{
+  display: block;
+  
+}
+p{
+    display: inline-block;
+} 
+
+
+@media screen and (min-width: 400px) and (max-width:600px){
+
+.divisor{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.divimagen{
+    width: 100%;
+
+}
+img{
+    width: 50%;
+    height: 70%;
+    
+}
+
+.divdatos{
+    width: 100%;
+}
+
+
+.divnombre, .divtipo, .divmovimientos, .divestadistica{
+    height: 80px;
+}
+
+}

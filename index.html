@@ -1,0 +1,99 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./poledex.css">
+    
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1>
+    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+    <img src="./pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+    <button onclick="fetchPokemon()">Cambiar Imágen</button>
+</body>
+<footer>
+    <script src="pokemon.js"></script>
+</footer>
+</html>
+ -->
+
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="pokemon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a3e517dd97.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+     
+<div class="divheader">
+    <header> <img class="h1" src="h1.png">
+    </header>
+</div>
+    
+<section>
+    <div class="divsection">
+         
+         <div class="divbuscarpokemon">
+            <input type="text" placeholder="Escribe el nombre de tu pokemon" id="pokeName" name="pokeName">
+             <button onclick="fetchPokemon()">Buscar</button>  
+            </div>
+    
+
+        <div class="divisor">
+             <div class="divimagen">
+                 <img src="pokebola.png" alt="pokebola" id="pokeImg">
+             </div>
+            
+             <div class="divdatos">
+            
+             <div class="divnombre">
+                  <label>Nombre</label><p id="nombre">Nombre</p>
+                  
+             </div>
+             <div class="divtipo">
+                  <label>Tipo de Pokemon</label><p id="tipo">Nombre</p>
+                  
+             </div>
+              <div class="divmovimientos">
+                  <label>Movimientos</label><p id="mov1">Nombre</p><p id="mov2">Nombre</p><p id="mov3">Nombre</p>
+                  
+              </div>
+              <div class="divestadistica">
+                  <label>Estadisticas</label>
+
+                 <div class="uno">
+                     <p>Hp</p>     <p id="hp"> Nombre</p>
+                     
+                 </div> 
+                <div class="dos">
+                     <p>Ataque</p> <p id="ataque"> Nombre</p>
+                    
+                </div>
+                 <div class="tres">
+                     <p>Defensa</p>  <p id="defensa">Nombre</p>
+                      
+                 </div>
+              </div>
+             </div>
+        </div>
+    
+    
+        
+    </div>
+</section>
+<script src="pokemon.js"></script>
+
+</body> 
+</html>
